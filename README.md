@@ -61,7 +61,7 @@ Drawn for two features only (`ink_ratio` and `aspect_ratio`), so they only illus
 ### Misclassified examples
 ![Misclassified](misclassified.png)
 
-Most errors come from untidy handwriting: tilted `#` symbols can be confused with `*`, and the slim `$` can resemble `&`.
+Most errors occur between `#` and `*`, which share crossing straight strokes; the slim `$` is occasionally confused with `&`. Overall, only 3 of 100 test images are misclassified.
 
 ## Limitations
 
