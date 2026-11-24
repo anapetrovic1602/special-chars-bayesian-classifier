@@ -1,6 +1,9 @@
 # Handwritten Special Characters Classification
 
 A simple image classification project that recognizes five handwritten symbols: `#`, `$`, `&`, `*` and `@`. The images are cleaned and cropped, a few numbers (features) are measured on each symbol, and a Bayes classifier written in NumPy decides which symbol it is.
+## Dataset
+
+500 photos of handwritten symbols, 100 per class (#, $, &, *, @).
 
 ## How It Works
 
